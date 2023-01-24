@@ -1,4 +1,4 @@
-# Using Multi-task learning to explain deep NLP models
+# Using multi-task learning to explain deep NLP models
 ## Overview 
 ### The research problem
 Explainability has been a big research topic in recent years and saw the development several approaches to explaining deep learning models. While such methods have helped researchers gain insight into deep NLP models, these methods tend to be inaccessible to business users. The purpose of this research project is using [multi-task-learning](https://arxiv.org/abs/1706.05098) to develop explainability methods that would be accessible to and incorporate the input of business users.
