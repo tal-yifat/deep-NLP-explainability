@@ -1,5 +1,5 @@
 
-# Using multi-task learning to explain deep NLP models
+# Using multi-task learning to explain deep NLP models (Work in Process)
 [Tal Yifat](https://www.linkedin.com/in/tal-yifat/) & [‪Avi Segal‬](https://scholar.google.com/citations?hl=en&user=dYBHOY8AAAAJ)
 ## Overview 
 ### The research problem
@@ -14,7 +14,7 @@ The research project targets hypothetical business users who process disability 
 ## The inaccessibility of Deep NLP Explainability Methods
 Let's review some of the main explainability method for deep NLP models (see some useful reviews: [1](https://arxiv.org/abs/2210.06929), [2](https://arxiv.org/abs/2010.00711) and [3](https://arxiv.org/abs/2108.04840)).
 ### Explaining knowledge in embeddings
-Knowledge in embeddings is typically made explainable by enforcing the sparsity of the embeddings, either through methods that are intrinsic to the model or by transforming model embeddings into a comparable but interpretable space. Embedding dimensions are then interpreted by looking at the words/tokens that get extreme values in them, as in the example below, from Murphy et al., 2012](https://www.semanticscholar.org/paper/Learning-Effective-and-Interpretable-Semantic-using-Murphy-Talukdar/0048d3c3b41cdcc16dbe6fad545030dbed9722c6)
+Knowledge in embeddings is typically made explainable by enforcing the sparsity of the embeddings, either through methods that are intrinsic to the model or by transforming model embeddings into a comparable but interpretable space. Embedding dimensions are then interpreted by looking at the words/tokens that get extreme values in them, as in the example below, from [Murphy et al., 2012](https://www.semanticscholar.org/paper/Learning-Effective-and-Interpretable-Semantic-using-Murphy-Talukdar/0048d3c3b41cdcc16dbe6fad545030dbed9722c6).
 ### Explaining knowledge in models' hidden layers
 Transformer-based models offers the opportunity to exploit the attention mechanism and trace the how attention in specific neurons is allocated across inputs. Like knowledge in embeddings, this is interesting for NLP researchers, but inaccessible for business users. 
 ### Explaining model decisions through word attribution
