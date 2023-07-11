@@ -1,4 +1,4 @@
-# Using multi-task learning to explain deep NLP models
+# Using multi-task learning to explain large Language models (LLMs)
 [Tal Yifat](https://www.linkedin.com/in/tal-yifat/) & [‪Avi Segal‬](https://scholar.google.com/citations?hl=en&user=dYBHOY8AAAAJ)
 ## Overview 
 ### The research problem
